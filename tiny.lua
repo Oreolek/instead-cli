@@ -16,7 +16,7 @@ if API == 'stead3' then
 	std.savepath = instead.savepath
 	function iface:em(str)
 		if type(str) == 'string' then
-			return "\27[2m"..str.."\27[0m"
+			return "\27[3m"..str.."\27[0m"
 		end
 	end
 	function iface:bold(str)
